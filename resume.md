@@ -1,7 +1,7 @@
 # Ambika Dubey
 ## I am a front-end software engineer with interests in data, design, and how to make data legible using design.
 
-imageEEEEEEE
+![Photo of Ambika Dubey](/Ambika_Dubey.png "Photo of Ambika Dubey")
 
 ## Skils
 1. Typescript
