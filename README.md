@@ -5,3 +5,7 @@
 #### h4 tag
 ##### h5 tag
 ###### h6 tag
+
+*italics*
+
+_also italics_
