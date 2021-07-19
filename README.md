@@ -9,3 +9,9 @@
 *italics*
 
 _also italics_
+
+newline is < br >
+
+**bold**<br><br>__bold__
+
+_**bold and italic**_
