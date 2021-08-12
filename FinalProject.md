@@ -46,3 +46,6 @@ This infographic can also be viewed at [this link](https://infogram.com/californ
     * 523k acres burned in 2013, 444k in 2014, 542k in 2015, 500k in 2016, 1.42M in 2017, 1.55M in 2018, and 286k in 2019 so far according to the dataset.
     * Method: Deduplicate dataset by using "CanonicalUrl" as the unique key (fires that spanned multiple counties have multiple entries, but since we care only about the total acres burned we don't want to count these entries multiple times in the sum), pivot table from the deduplicated dataset with "Counties" as rows, "ArchiveYear" as columns, and SUM "AcresBurned" as values, take the entries for "Grand Total" row and match them to the corresponding year.
     * ![Screenshot of bottom of pivot table showing the grand total of number of acres burned per year](./acres_burned_per_year.png)
+
+
+[Here](https://docs.google.com/spreadsheets/d/1mZumjclxwbMTcLb5SULyUnjb_LLmPz_sA3PAsaY4pLk/edit?usp=sharing) is a link to the dataset used for analysis.
