@@ -27,6 +27,7 @@ This infographic can also be viewed at [this link](https://infogram.com/californ
 1. Which was California's deadliest wildfire between 2013 and 2019?
     * Butte County's Camp Fire in 2018 was the deadliest fire in this time period, resulting in 85 total fatalities.
     * Method: Sort original dataset by "Fatalities" descending, take the first one.
+    * ![Screenshot of the top row after sorting by fatalities showing the Camp Fire as the deadliest fire](./deadliest_fire.png)
 2. Which of the wildfires in this period has the highest number of personnel involved?
     * River Fire (Mendocino Complex), which affected Mendocino, Lake, and Colusa Counties in 2018, had the highest number of personnel involved at 3,100.
     * Method: Sort original dataset by "PersonnelInvolved" descending, take the first one.
