@@ -8,7 +8,6 @@ The wildfires dataset can serve as the basis for a story on natural disaster pre
 ### Potential expert sources
 - TODO expert 1
 - TODO expert 2
-- TODO expert 3
 
 ### Additional resources
 - [Dataset] Daily temperature in major cities [(via Kaggle)](https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities).
