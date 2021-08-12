@@ -17,6 +17,7 @@ The wildfires dataset can serve as the basis for a story on natural disaster pre
     - Joined with the wildfires dataset and the temperature dataset, this dataset gives us the ability to do more nuanced reporting on the number of people affected by a fire in a given county or city.
 
 ## Data visualization
+![California wildfires visualization](./wildfires_visualization.png)
 This infographic can also be viewed at [this link](https://infogram.com/california-wildfires-1h8n6m30rl3kj4x?live).
 
 ## Data analysis and process
@@ -33,6 +34,7 @@ This infographic can also be viewed at [this link](https://infogram.com/californ
 3. Which five counties were affected by the most number of fires between 2013 and 2019?
     * Riverside (146 fires), San Diego (89), Butte (66), Shasta (64), and San Luis Obispo (64) were the counties that were affected by the most number of wildfires between 2013 and 2019.
     * Method: Pivot table from the original dataset with "Counties" as rows, and COUNTA of "Name" as values, sorted by COUNTA of Name descending, take the top five.
+    * ![Screenshot of pivot table showing the five counties affected by the most number of fires](./counties_with_most_number_of_fires.png)
 4. Which five counties had the most number of acres burned between 2013 and 2019?
     * Lake, Mendocino, Trinity, Colusa, and Shasta were the counties that had the most number of acres burned in the time period, each with over 400k acres burned.
     * Method: Pivot table from the original dataset with "Counties" as rows, SUM of "AcresBurned" as values, and "ArchiveYear" as columns, sort by "Grand Total" descending, take the top five.
