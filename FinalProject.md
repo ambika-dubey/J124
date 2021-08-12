@@ -6,8 +6,12 @@
 The wildfires dataset can serve as the basis for a story on natural disaster preparedness per county in California. Combined with a dataset of the population of California cities and counties (see "Additional resources" below), we should be able to estimate the number of people affected by a wildfire in a given county. In addition, for further analysis we could combine analysis of the wildfire dataset (size/scope/severity over time) with a temperature or climate events dataset (see "Additional resources" below) to illustrate a correlation between the two. For example, we could explore whether drought years make for worse wildfires, or if the causes of the fires differ between draught years and otherwise.
 
 ### Potential expert sources
-- TODO expert 1
-- TODO expert 2
+- Susie Kocher (@UCsierraforest | (530) 542-2571 | sdkocher@ucdavis.edu)
+     - Natural Resources Advisor for the University of California, Member of the Statewide Coordinating Team for the California Fire Science Consortium
+     - Kocher could be a great source to comment on trends in wildfires in California over time. She has worked on education and outreach related to fires, and could be a great source for a cautionary section of an article detailing emergency preparedness or what to do following a wildfire.
+- Elizabeth F. van Mantgem ((559) 565-3170 | evanmantgem@usgs.gov)
+     - US Geological Survey, Member of the Statewide California Fire Science Consortium as a Central and Southern CA region contributor
+     - Mantgem would be a good source for joining California data with countrywide data and trends to extrapolate or forecast wildfires in other regions of the country based on US geological data.
 
 ### Additional resources
 - [Dataset] Daily temperature in major cities [(via Kaggle)](https://www.kaggle.com/sudalairajkumar/daily-temperature-of-major-cities).
