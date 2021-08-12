@@ -20,8 +20,10 @@ The wildfires dataset can serve as the basis for a story on natural disaster pre
 This infographic can also be viewed at [this link](https://infogram.com/california-wildfires-1h8n6m30rl3kj4x?live).
 
 ## Data analysis and process
-1. TODO numbered list of steps
-2. TODO
+### Cleaning the data
+* Noted that in the "Counties" column, Mexico, State of Nevada, and State of Oregon appear, and California's Imperial and San Francisco Counties do not. This did not affect most of the analysis, but was good to keep in mind as I was exploring the data.
+* Some of the "CountyIds" entries have multiple Ids separated by commas. This was discovered when completing step #2 below, when I noticed that there were three entries for River Fire. This is because there is a unique entry for each county affected. This was important when analyzing total acres burned across each year since I did not want to artifically inflate values by counting large fires multiple times.
+* Because of the above observation, in order to complete step #5 below, I deduplicated the data by removing rows where "CanonicalUrl" matched. This reduced the numbers I had been working with previously to give what I presume are more accurate totals.
 
 ### Questions and answers from this dataset
 1. Which was California's deadliest wildfire between 2013 and 2019?
