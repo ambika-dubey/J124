@@ -17,8 +17,7 @@ The wildfires dataset can serve as the basis for a story on natural disaster pre
     - Joined with the wildfires dataset and the temperature dataset, this dataset gives us the ability to do more nuanced reporting on the number of people affected by a fire in a given county or city.
 
 ## Data visualization
-### TODO data viz 1
-### TODO data viz 2
+This infographic can also be viewed at [this link](https://infogram.com/california-wildfires-1h8n6m30rl3kj4x?live).
 
 ## Data analysis and process
 1. TODO numbered list of steps
