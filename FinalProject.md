@@ -30,7 +30,8 @@ This infographic can also be viewed at [this link](https://infogram.com/californ
     * ![Screenshot of the top row after sorting by fatalities showing the Camp Fire as the deadliest fire](./deadliest_fire.png)
 2. Which of the wildfires in this period has the highest number of personnel involved?
     * River Fire (Mendocino Complex), which affected Mendocino, Lake, and Colusa Counties in 2018, had the highest number of personnel involved at 3,100.
-    * Method: Sort original dataset by "PersonnelInvolved" descending, take the first one.
+    * Method: Sort original dataset by "PersonnelInvolved" descending, take the first one. Note: There are three entries for the River Fire because it spanned three counties. This was noted for all the analysis steps involving sums but not removed for sort operations because it did not change the outcome of the analysis.
+    * ![Screenshot of the top rows after sorting by personnel involved showing the River Fire as having the most personnel involved](./most_personnel_involved.png)
 3. Which five counties were affected by the most number of fires between 2013 and 2019?
     * Riverside (146 fires), San Diego (89), Butte (66), Shasta (64), and San Luis Obispo (64) were the counties that were affected by the most number of wildfires between 2013 and 2019.
     * Method: Pivot table from the original dataset with "Counties" as rows, and COUNTA of "Name" as values, sorted by COUNTA of Name descending, take the top five.
@@ -38,6 +39,8 @@ This infographic can also be viewed at [this link](https://infogram.com/californ
 4. Which five counties had the most number of acres burned between 2013 and 2019?
     * Lake, Mendocino, Trinity, Colusa, and Shasta were the counties that had the most number of acres burned in the time period, each with over 400k acres burned.
     * Method: Pivot table from the original dataset with "Counties" as rows, SUM of "AcresBurned" as values, and "ArchiveYear" as columns, sort by "Grand Total" descending, take the top five.
+    * ![Screenshot of pivot table showing that Lake, Mendocino, Trinity, Colusa, and Shasta counties had the most number of acres burned](./most_acres_burned.png)
 5. How many acres burned in total each year among all fires?
     * 523k acres burned in 2013, 444k in 2014, 542k in 2015, 500k in 2016, 1.42M in 2017, 1.55M in 2018, and 286k in 2019 so far according to the dataset.
     * Method: Deduplicate dataset by using "CanonicalUrl" as the unique key (fires that spanned multiple counties have multiple entries, but since we care only about the total acres burned we don't want to count these entries multiple times in the sum), pivot table from the deduplicated dataset with "Counties" as rows, "ArchiveYear" as columns, and SUM "AcresBurned" as values, take the entries for "Grand Total" row and match them to the corresponding year.
+    * ![Screenshot of bottom of pivot table showing the grand total of number of acres burned per year](./acres_burned_per_year.png)
